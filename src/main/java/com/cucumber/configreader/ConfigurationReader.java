@@ -28,8 +28,9 @@ public class ConfigurationReader {
 		return new ConfigurationReader();
 	}
 	
-	public Properties getProperTyConfig() {
-		return prop;
+	public String getProperTyConfig(String key) {		
+		
+		return prop.getProperty(key);
 	}
 
 	

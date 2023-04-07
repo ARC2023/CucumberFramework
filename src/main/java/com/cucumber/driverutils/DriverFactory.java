@@ -7,7 +7,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class DriverFactory {
+import com.cucumber.utils.CommonUtils;
+
+public class DriverFactory extends CommonUtils{
 
 	public WebDriver Driver;
 

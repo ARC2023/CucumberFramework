@@ -1,6 +1,7 @@
 
 Feature: Basic testing of Framework
  
+ @new
   Scenario: To validate basic login for sauce demo
     Given I am on login page of sauce demo
     When I enter User name "standard_user"
