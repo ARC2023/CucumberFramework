@@ -6,25 +6,17 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-
-		features = { "src\\test\\resources\\FeatureFiles\\Electronics" }, 
-		glue = { "stepdefinition",
-				"hooks" }, 
+		features = { "src/test/resources/features/ManageExternalAccounts.feature" },
+		glue = { "stepdefinition", "hooks", "features" },
 		plugin = { "pretty",
-				
-				"rerun:target/failedcases.txt", 
-				
+				"rerun:target/failedcases.txt",
 				"json:target/cucumber-reports/Cucumber.json",
 				"junit:target/cucumber-reports/Cucumber.xml",
-				
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-				"timeline:test-output-thread/" }
-		,
-		tags="not @SO and not @DataTablesMap" 
-		// If we need to add multiple not condition to skip scenario use and instead of or
+				"timeline:test-output-thread/" },
+		tags = "@manage"
 		//monochrome = true,
 		//dryRun=true
-
 )
 
 public class Executor {

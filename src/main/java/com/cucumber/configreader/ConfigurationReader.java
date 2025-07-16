@@ -13,7 +13,8 @@ public class ConfigurationReader {
 
 		prop = new Properties();
 		try {
-			FileInputStream ip = new FileInputStream("C:\\Users\\glend\\eclipse-workspace\\CucumberFramework\\src\\main\\resources\\config\\config.properties");
+			String configPath = System.getProperty("user.dir") + "/src/main/resources/config/config.properties";
+			FileInputStream ip = new FileInputStream(configPath);
 			prop.load(ip);
 
 		} catch (Exception e) {

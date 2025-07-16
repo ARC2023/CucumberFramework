@@ -1,0 +1,202 @@
+# Created at 2025-07-15T22:28:53.815
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2025-07-15T22:28:55.617
+Unexpected IOException with stream:   [32mGiven [0m[32mI want to show data table as list of list[0m              [90m# stepdefinition.DataTables.i_want_to_show_data_table_as_list_of_list()[0m
+
+
+# Created at 2025-07-15T22:28:55.620
+Unexpected IOException with stream: DataTable as List of List -->Amruta
+
+
+# Created at 2025-07-15T22:28:55.621
+Unexpected IOException with stream: DataTable as List of List -->Amruta@gmail.com
+
+
+# Created at 2025-07-15T22:28:55.621
+Unexpected IOException with stream: DataTable as List of List -->Nagpur
+
+
+# Created at 2025-07-15T22:28:55.623
+Unexpected IOException with stream: DataTable as List of List -->987456
+
+
+# Created at 2025-07-15T22:28:55.623
+Unexpected IOException with stream: DataTable as List of List -->Bhagyashree
+
+
+# Created at 2025-07-15T22:28:55.624
+Unexpected IOException with stream: DataTable as List of List -->Bhagyashree@gmail.com
+
+
+# Created at 2025-07-15T22:28:55.625
+Unexpected IOException with stream: DataTable as List of List -->Pune
+
+
+# Created at 2025-07-15T22:28:55.631
+Unexpected IOException with stream: DataTable as List of List -->654789
+
+
+# Created at 2025-07-15T22:28:55.632
+Unexpected IOException with stream: DataTable as List of List -->Priya
+
+
+# Created at 2025-07-15T22:28:55.633
+Unexpected IOException with stream: DataTable as List of List -->Priya@gmail.com
+
+
+# Created at 2025-07-15T22:28:55.634
+Unexpected IOException with stream: DataTable as List of List -->Mumbai
+
+
+# Created at 2025-07-15T22:28:55.635
+Unexpected IOException with stream: DataTable as List of List -->123654
+
+
+# Created at 2025-07-15T22:28:55.635
+Unexpected IOException with stream: DataTable as List of List -->Nikhil
+
+
+# Created at 2025-07-15T22:28:55.636
+Unexpected IOException with stream: DataTable as List of List -->Nikhil@gmail.com
+
+
+# Created at 2025-07-15T22:28:55.636
+Unexpected IOException with stream: DataTable as List of List -->Banglore
+
+
+# Created at 2025-07-15T22:28:55.638
+Unexpected IOException with stream: DataTable as List of List -->456258
+
+
+# Created at 2025-07-15T22:28:55.638
+Unexpected IOException with stream:   [32mWhen [0m[32mI recevie below mentioned data in table as list of list[0m [90m# stepdefinition.DataTables.i_recevie_below_mentioned_data_in_table_as_list_of_list(io.cucumber.datatable.DataTable)[0m
+
+
+# Created at 2025-07-15T22:28:55.639
+Unexpected IOException with stream:   [32mThen [0m[32mmy list is iterated successfully[0m                        [90m# stepdefinition.DataTables.my_list_is_iterated_successfully()[0m
+
+
+# Created at 2025-07-15T22:28:55.819
+Unexpected IOException with stream: 
+
+
+# Created at 2025-07-15T22:28:55.819
+Unexpected IOException with stream: @new
+
+
+# Created at 2025-07-15T22:28:55.820
+Unexpected IOException with stream: Scenario: To validate basic login for sauce demo [90m# src/test/resources/FeatureFiles/Electronics/LogIn.feature:5[0m
+
+
+# Created at 2025-07-15T22:28:55.822
+Unexpected IOException with stream: Browser value is: chrome
+
+
+# Created at 2025-07-15T22:28:56.790
+Unexpected IOException with stream: Jul 15, 2025 10:28:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+
+
+# Created at 2025-07-15T22:28:56.790
+Unexpected IOException with stream: Jul 15, 2025 10:28:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.101. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+
+
+# Created at 2025-07-15T22:29:04.418
+Unexpected IOException with stream: Screen Shot Taken
+
+
+# Created at 2025-07-15T22:29:04.418
+Unexpected IOException with stream:   [32mGiven [0m[32mI am on login page of sauce demo[0m         [90m# stepdefinition.LogInSauceDemo.i_am_on_login_page_of_sauce_demo()[0m
+
+
+# Created at 2025-07-15T22:29:04.613
+Unexpected IOException with stream: Screen Shot Taken
+
+
+# Created at 2025-07-15T22:29:04.613
+Unexpected IOException with stream:   [32mWhen [0m[32mI enter User name [0m[32m[1m"standard_user"[0m         [90m# stepdefinition.LogInSauceDemo.i_enter_user_name(java.lang.String)[0m
+
+
+# Created at 2025-07-15T22:29:04.794
+Unexpected IOException with stream: Screen Shot Taken
+
+
+# Created at 2025-07-15T22:29:04.795
+Unexpected IOException with stream:   [32mAnd [0m[32mI enter Password [0m[32m[1m"secret_sauce"[0m            [90m# stepdefinition.LogInSauceDemo.i_enter_password(java.lang.String)[0m
+
+
+# Created at 2025-07-15T22:29:05.355
+Unexpected IOException with stream: Screen Shot Taken
+
+
+# Created at 2025-07-15T22:29:05.356
+Unexpected IOException with stream:   [32mAnd [0m[32mI click on login button[0m                    [90m# stepdefinition.LogInSauceDemo.i_click_on_login_button()[0m
+
+
+# Created at 2025-07-15T22:29:05.357
+Unexpected IOException with stream: Work In Progress
+
+
+# Created at 2025-07-15T22:29:05.358
+Unexpected IOException with stream:   [31mThen [0m[31mI land on home page of sauce demo[0m         [90m# stepdefinition.LogInSauceDemo.i_land_on_home_page_of_sauce_demo()[0m
+
+
+# Created at 2025-07-15T22:29:05.360
+Unexpected IOException with stream:       [31mjava.lang.Exception: Screen On failure
+	at stepdefinition.LogInSauceDemo.i_land_on_home_page_of_sauce_demo(LogInSauceDemo.java:57)
+	at âœ½.I land on home page of sauce demo(file:///C:/Users/glend/Downloads/automation%20code/CucumberFramework/src/test/resources/FeatureFiles/Electronics/LogIn.feature:10)
+[0m
+
+
+# Created at 2025-07-15T22:29:05.490
+Unexpected IOException with stream: Screen Shot Taken For Failure
+
+
+# Created at 2025-07-15T22:29:05.645
+Unexpected IOException with stream: 
+
+
+# Created at 2025-07-15T22:29:05.645
+Unexpected IOException with stream:     Embedding To_validate_basic_login_for_sauce_demo [image/png 357432 bytes]
+
+
+# Created at 2025-07-15T22:29:05.645
+Unexpected IOException with stream: 
+
+
+# Created at 2025-07-15T22:29:06.346
+Unexpected IOException with stream: Jul 15, 2025 10:29:06 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+
+
+# Created at 2025-07-15T22:29:07.561
+Unexpected IOException with stream: [32m[1m?????????????????????????????????????????????????????????????????????????????????????[0m
+[32m[1m?[0m Share your Cucumber Report with your team at [36m[1m[4mhttps://reports.cucumber.io[0m          [32m[1m?[0m
+[32m[1m?[0m Activate publishing with one of the following:                                    [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m src/test/resources/cucumber.properties:          [36mcucumber.publish.enabled[0m=[36mtrue[0m    [32m[1m?[0m
+[32m[1m?[0m src/test/resources/junit-platform.properties:    [36mcucumber.publish.enabled[0m=[36mtrue[0m    [32m[1m?[0m
+[32m[1m?[0m Environment variable:                            [36mCUCUMBER_PUBLISH_ENABLED[0m=[36mtrue[0m    [32m[1m?[0m
+[32m[1m?[0m JUnit:                                           [36m@CucumberOptions[0m(publish = [36mtrue[0m) [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m More information at [36mhttps://reports.cucumber.io/docs/cucumber-jvm[0m                 [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m Disable this message with one of the following:                                   [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m src/test/resources/cucumber.properties:          [36mcucumber.publish.quiet[0m=[36mtrue[0m      [32m[1m?[0m
+[32m[1m?[0m src/test/resources/junit-platform.properties:    [36mcucumber.publish.quiet[0m=[36mtrue[0m      [32m[1m?[0m
+[32m[1m?????????????????????????????????????????????????????????????????????????????????????[0m
+
+
+# Created at 2025-07-15T22:29:07.635
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,tester.Executor,null,null,null
+
+

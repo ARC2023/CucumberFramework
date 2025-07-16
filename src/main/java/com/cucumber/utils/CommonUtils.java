@@ -12,5 +12,10 @@ public class CommonUtils {
 		Actions mouse= new Actions(driver);
 		mouse.moveToElement(Element).build().perform();			
 	}
+
+	// Common click method for all page objects
+	public void clickElement(WebElement element) {
+		element.click();
+	}
 	
 }

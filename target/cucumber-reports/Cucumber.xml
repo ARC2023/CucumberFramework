@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="9.483">
-    <testcase classname="Data Tables in Cucumbers using list and maps" name="Data Table as list only" time="3.769">
-        <system-out><![CDATA[Given I want to show data table as list.....................................passed
-When I recevie below mentioned data in table as list........................passed
-Then my list is iterated successfully.......................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Data Tables in Cucumbers using list and maps" name="Data Table as list of list only" time="1.761">
-        <system-out><![CDATA[Given I want to show data table as list of list.............................passed
-When I recevie below mentioned data in table as list of list................passed
-Then my list is iterated successfully.......................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Basic testing of Framework" name="To validate basic login for sauce demo" time="3.732">
-        <failure message="Screen On failure" type="java.lang.Exception"><![CDATA[Given I am on login page of sauce demo......................................passed
-When I enter User name "standard_user"......................................passed
-And I enter Password "secret_sauce".........................................passed
-And I click on login button.................................................passed
-Then I land on home page of sauce demo......................................failed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.085">
+    <testcase classname="Manage External Accounts" name="User views and manages external accounts" time="11.964">
+        <failure message="Cannot invoke &quot;com.cucumber.pages.ManageExternalAccountsPage.getHeaderText()&quot; because &quot;this.externalAccountsPage&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given the user is on the Manage External Accounts page......................passed
+Then the page header should be "MANAGE EXTERNAL ACCOUNTS"...................failed
+And the user should see the bank account information........................skipped
+And the account number should be displayed..................................skipped
+And the routing number should be displayed..................................skipped
+And the account status should be Active.....................................skipped
+When the user clicks on Add External Account................................skipped
+Then a new account form should be displayed.................................skipped
+When the user clicks on Edit Account Name...................................skipped
+Then the account name edit option should be available.......................skipped
 
 StackTrace:
-java.lang.Exception: Screen On failure
-	at stepdefinition.LogInSauceDemo.i_land_on_home_page_of_sauce_demo(LogInSauceDemo.java:52)
-	at ✽.I land on home page of sauce demo(file:///C:/Users/glend/eclipse-workspace/CucumberFramework/src/test/resources/FeatureFiles/Electronics/LogIn.feature:10)
+java.lang.NullPointerException: Cannot invoke "com.cucumber.pages.ManageExternalAccountsPage.getHeaderText()" because "this.externalAccountsPage" is null
+	at features.ManageExternalAccountsSteps.page_header_should_be(ManageExternalAccountsSteps.java:26)
+	at ✽.the page header should be "MANAGE EXTERNAL ACCOUNTS"(file:///C:/Users/glend/Downloads/automation%20code/CucumberFramework/src/test/resources/features/ManageExternalAccounts.feature:6)
 ]]></failure>
     </testcase>
 </testsuite>
